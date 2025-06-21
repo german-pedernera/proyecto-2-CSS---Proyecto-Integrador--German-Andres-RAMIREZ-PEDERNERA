@@ -1,0 +1,48 @@
+.subtitulo {
+    margin: 15px;
+    padding: 0px;
+}
+
+.tituloInterno{
+    font-size: 24px;
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+.contenedor{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.imagen{
+    float: right;
+    margin: -10px 10px 20px 20px;
+    max-width: 25%;
+    height: auto;
+}
+.imagen2{
+    float: right;
+    margin: -10px 10px 10px 20px;
+    padding: 50px 0px 100px 0px;
+    height: auto;
+}
+
+.video2{
+    float: left;
+    margin: 10px 20px 10px 10px;
+    width: 450px;;
+    height: 450px;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 12px 12px;
+}
+.aud{
+    position: fixed;
+    padding: 0px 0px 0px 550px;
+    margin: 0px;
+    position:absolute;
+}

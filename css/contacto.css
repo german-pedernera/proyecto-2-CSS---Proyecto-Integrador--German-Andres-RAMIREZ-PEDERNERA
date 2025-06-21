@@ -1,0 +1,86 @@
+.contenedor{
+    background-color: #6ea9f7;
+    border-radius: 10px;
+    margin: 0px 0;
+    padding: 10px;
+    width: 50%;
+
+    background-position-x: left ;    left: 25%;
+}
+
+.form {
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 10px solid green;
+}
+.map{
+    width:40%;
+    justify-items: center;
+    text-align: center;
+    justify-content: center ;
+    padding: 10px;
+    height: auto;
+    margin: 1px 30%;
+    border: 5px dotted rgb(41, 148, 248);
+    border-radius: 10px;
+    background-position-x: center ;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea{
+    width:40%;
+    padding: 10px;
+    height: auto;
+    margin: 2px 2px;
+    border: 1px solid rgb(41, 148, 248);
+    border-radius: 10px;
+    box-sizing: border-box 10px;
+    background-position-x: left ;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    width: 30%;
+    background-color: green;
+    color: rgb(104, 234, 243);
+    padding: 15px 20px;
+    margin: 8px 0 0 35%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.correccion{
+    width: 40%;
+    height: auto;
+    padding: 8px;
+    margin: 0px 0px 0px 7rem;
+    border: 1px solid rgb(41, 148, 248);
+    border-radius: 10px;
+}
+.correccion1{
+    width: 40%;
+    height: auto;
+    padding: 8px;
+    margin: 0px 0px 0px 13rem;
+    border: 1px solid rgb(41, 148, 248);
+    border-radius: 10px;
+}
+.correccion2{
+    padding: 50px;
+    margin: 10px 5px;
+    font-display: none;
+}
+
+textarea:focus,input:focus{
+    background-color: rgb(146, 190, 247);
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(28, 4, 245);
+}
+input[type="reset"]:hover{
+    background-color: rgb(28, 4, 245);
+}

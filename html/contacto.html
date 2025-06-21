@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento Militar</title>
+    <meta name="description " content="entrenamiento miliitar, acondicionamiento fisico, preparacion fisica, salud ">
+    <meta name="keywords" content="planes de entrenamiento, tablas de exigencias, educacion fisica, fortalecimiento motriz"> 
+    <meta name="author" content="German Andres RAMIREZ PEDERNERA"> 
+    <link rel="shortcut icon" href="/ico/icons8-casco-griego-100.png" width="30" height="30" type="Entrenamiento Militar"> 
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <img src="/ico/icons8-casco-griego-100.png" alt="Entrenamiento Militar">
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="/html/index.html">Inicio</a></li>
+                        <li><a href="/html/plancha-isometrica.html">Plancha Isometrica</a></li>
+                        <li><a href="/html/flexion-de-brazo.html">Flexiones de Brazo</a></li>
+                        <li><a href="/html/carrera-aerobica.html">Carrera Aerobica</a></li>
+                        <li><a href="/html/barra-fija.html">Barra Fija</a></li>
+                        <li><a class="active" href="/html/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav><hr>
+            </div>
+    </header>
+
+    <main>
+        <div>
+            <nav>
+                <h2 class="subtitulo">Contáctate con nosotros</h2>
+                <p>¡Ven a nuestra institución y prepárate físicamente para enfrentar los desafíos que te esperan en las fuerzas de seguridad y las fuerzas armadas! En nuestro centro, te ofrecemos un entrenamiento especializado y completamente asegurado para que logres un buen ingreso a estas instituciones tan exigentes. Sabemos lo importante que es estar bien preparado, tanto física como mentalmente, y por eso diseñamos un programa integral que te ayudará a mejorar tu resistencia, fuerza y agilidad, aspectos esenciales para alcanzar el éxito en los exámenes físicos. Además, contamos con entrenadores experimentados que te guiarán en cada paso del proceso, brindándote las herramientas necesarias para superar cualquier obstáculo. No te quedes afuera de esta oportunidad única de ingresar a las fuerzas de seguridad o armadas. Completa el formulario en nuestra página web y estarás un paso más cerca de cumplir tu sueño. Nos pondremos en contacto contigo para darte toda la información que necesitas y guiarte durante todo el proceso de inscripción. ¡No pierdas esta chance, tu futuro en las fuerzas está al alcance de tus manos!</p>
+            </nav>
+        </div>
+        <div>
+            <nav>
+                <h2 class="subtitulo">Formulario de Contacto:</h2>
+            </nav>
+        </div>
+        <div>
+            <nav class="form">
+                <form action="envio,php" method="post" target="_blank">
+
+                <label for="nombre y epellido"><b>Nombres y Apellidos</b></label>
+                <input class="correccion1" type="texto" name="nombre y apellido" placeholder="Escriba Nombre y Apellido" required>
+                <small> Este campo es obligatorio completarlo</small>
+                <br><br>
+                
+                <label for="fecha"><b>Fecha de contacto con nosotros</b></label>
+                <input class="correccion" type="date" id="fecha" name="fecha" max="2025-6-16">
+                <br><br>
+
+                <label for="email"><b>Ingresa tu email correctamente para validar</b></label>
+                <input type="email" name="email" placeholder="Escriba Email" required>
+                <small> Este campo es obligatorio completarlo</small>
+                <br><br>
+
+                <label for="password"><b>Ingrese un contraseña</b></label>
+                <input class="correccion1" type="password" name="password" placeholder="Escriba Contraseña" maxlength="12" minlength="6" required>
+                <br><br>
+
+                <label for="condiciones"><b>Eliga la opcion correcta conforme necesidad</b></label><br><br>
+                <input class="correccion2" type="checkbox" name="entrenamiento" id="condiciones"> Acondicionamiento Fisico
+                <input class="correccion2" type="checkbox" name="entrenamiento" id="condiciones"> Mantenimiento Fisico
+                <input class="correccion2" type="checkbox" name="entrenamiento" id="condiciones"> Hipertrofia Muscular
+                <br><br>
+
+                <label for="condiciones"><b>Eliga la opcion correcta conforme necesidad</b></label><br><br>
+                <input type="radio" name="fuerza" id="condiciones"> Incoporacion Fuerza de Seguridad
+                <input type="radio" name="fuerza" id="condiciones"> Incoporacion Fuerza de Armadas
+                <input type="radio" name="fuerza" id="condiciones"> Incoporacion Empresa de Seguridad
+                <br><br>
+
+                <p><b>Subir curriculum y/o antecedentes de intestes</b></p>
+                <label for="archive">Suba su archivo</label>
+                <input type="file" name="archive" evalue="suba su curriculum" multiple>
+                <br><br>
+
+                <p><b>Deja un mensaje</b></p>
+                <label for="opinion">Suba su Mensaje</label>
+                <textarea id="opinion" name="opinio" placeholder="Escriba su opinion" rows="15" cols="43"></textarea>
+                <br><br>
+
+                <label for="Seleccione la fuerza a incoporarse">Seleccione la fuerza a incoporarse</label>
+                <select class="contenedor" id="fuerza" name="fuerza">
+                    <optgroup label="Fuerza de Seguridad">
+                        <option value="Eliga una opcion" selected="selecter">eliga una opcion</option>
+                        <option value="Gendarmeria Nacional Argentina">Gendarmeria Nacional Argentina</option>
+                        <option value="Prefectura Naval Argentina">Prefectura Naval Argentina</option> 
+                        <option value="Policia Federal Argentina">Policia Federal Argentina</option>  
+                        <option value="Policia Aeroportuaria">Policia Aeroportuaria</option>  
+                    </optgroup>
+                    <optgroup label="Fuerza Armadas">
+                        <option value="Armada Argentina">Armada Argentina</option> 
+                        <option value="Ejercito Argentino">Ejercito Argentino</option> 
+                        <option value="Fuerza Aerea">Fuerza Aerea</option> 
+                        <option value="Marina Argentina">Marina Argentina</option> 
+                    </optgroup>
+                    <optgroup label="Empresa de Seguridad">
+                        <option value="Flecha Veloz">Flecha Veloz</option> 
+                        <option value="El Tero Custodia">El Tero Custodia</option> 
+                        <option value="Arco y Flecha">Arco y Flecha</option> 
+                        <option value="Blinck Custodia">Blinck Custodia</option> 
+                    </optgroup>
+                </select>
+                <br><br>
+
+                <input type="submit" value="enviar tus datos"><!-- se utiliza para enviar el formularios-->
+                <br>
+                <input type="reset" value="restaurar formulario"><br><br><!-- se utiliza para resetear formulario a cero-->
+                <div class="map">
+                    <h2>Veni a conocer nuestro punto de "Entrenamiento"</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2007.8659796481513!2d-64.47391006256706!3d-32.18227362873275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2985ecc827ab1%3A0x21de13733ab94e0d!2sVilla%20Rumipal%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1750528728475!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                </form>
+            </nav>
+        </div>
+        <div>
+            
+        </div>
+    </main>
+    <footer>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank"><img src="/ico/icons8-facebook-nuevo-120.png" width="90" alt="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="/ico/icons8-instagram-120.png" width="90" alt="Instagram"></a></li>
+                    <li><a href="https://www.tiktok.com/" target="_blank"><img src="/ico/icons8-tik-tok-120.png" width="90" alt="Tiktok"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
